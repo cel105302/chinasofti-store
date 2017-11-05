@@ -5,6 +5,14 @@
     <artifactId>chinasofti-mall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  <name>configration-center</name>
   <artifactId>chinasofti-mall-configuration-center</artifactId>
-  <name>配置中心</name>
+  <packaging>jar</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.chinasofti.mall</groupId>
+  		<artifactId>chinasofti-mall-common</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

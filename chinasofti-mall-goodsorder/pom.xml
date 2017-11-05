@@ -3,16 +3,12 @@
   <parent>
     <groupId>com.chinasofti.mall</groupId>
     <artifactId>chinasofti-mall</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
+  <name>goodsorder-manage</name>
   <artifactId>chinasofti-mall-goodsorder</artifactId>
   
   <dependencies>
-  	<dependency>
-  		<groupId>com.chinasofti.mall</groupId>
-  		<artifactId>chinasofti-mall-common</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   	
   	<!-- Mybatis -->
 	<dependency>
@@ -48,6 +44,11 @@
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-config</artifactId>
 	</dependency> -->
-	
+
+	<dependency>
+		<groupId>com.chinasofti.mall</groupId>
+		<artifactId>chinasofti-mall-common</artifactId>
+		<version>1.0.0</version>
+	</dependency>
   </dependencies>
 </project>

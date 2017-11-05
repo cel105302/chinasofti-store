@@ -4,10 +4,10 @@
 	<parent>
 		<groupId>com.chinasofti.mall</groupId>
 		<artifactId>chinasofti-mall</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 	</parent>
+	<name>common-project</name>
 	<artifactId>chinasofti-mall-common</artifactId>
-	<name>公共资源</name>
 	<packaging>jar</packaging>
 	<dependencies>
 		<dependency>
